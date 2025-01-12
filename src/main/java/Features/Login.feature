@@ -1,5 +1,5 @@
 @Login
-Feature: Perform login operation with multiple user id's
+Feature: Perform login operation with multiple user ids
 
 	Scenario Outline: Login with excel data
 	

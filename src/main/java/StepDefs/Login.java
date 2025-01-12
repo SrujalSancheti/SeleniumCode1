@@ -26,7 +26,6 @@ public class Login {
 	LoginPage lpg = new LoginPage(driver);	
 	
 	@Given("I am on login page")
-//	@Test
 	public void onloginPage() {
 		driver = SetupNTearDown.setup();
 		driver.get("https://www.saucedemo.com/");
